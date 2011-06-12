@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FEB241213A50565005C2B0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEB241113A50565005C2B0D /* Foundation.framework */; };
+		3FEB242C13A506ED005C2B0D /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB242A13A506C1005C2B0D /* RegexKitLite.m */; };
+		3FEB242D13A506F5005C2B0D /* RegexKitLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FEB242813A506C1005C2B0D /* RegexKitLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FEB240E13A50565005C2B0D /* libRegexKitLite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRegexKitLite.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEB241113A50565005C2B0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3FEB241513A50565005C2B0D /* RegexKitLite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RegexKitLite-Prefix.pch"; sourceTree = "<group>"; };
+		3FEB242413A506C1005C2B0D /* Documentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documentation; sourceTree = SOURCE_ROOT; };
+		3FEB242513A506C1005C2B0D /* examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = examples; sourceTree = SOURCE_ROOT; };
+		3FEB242613A506C1005C2B0D /* License.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = License.html; sourceTree = SOURCE_ROOT; };
+		3FEB242713A506C1005C2B0D /* License.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = SOURCE_ROOT; };
+		3FEB242813A506C1005C2B0D /* RegexKitLite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = SOURCE_ROOT; };
+		3FEB242913A506C1005C2B0D /* RegexKitLite.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = RegexKitLite.html; sourceTree = SOURCE_ROOT; };
+		3FEB242A13A506C1005C2B0D /* RegexKitLite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FEB240B13A50565005C2B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEB241213A50565005C2B0D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FEB240313A50565005C2B0D = {
+			isa = PBXGroup;
+			children = (
+				3FEB241313A50565005C2B0D /* RegexKitLite */,
+				3FEB241013A50565005C2B0D /* Frameworks */,
+				3FEB240F13A50565005C2B0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FEB240F13A50565005C2B0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FEB240E13A50565005C2B0D /* libRegexKitLite.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FEB241013A50565005C2B0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FEB241113A50565005C2B0D /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FEB241313A50565005C2B0D /* RegexKitLite */ = {
+			isa = PBXGroup;
+			children = (
+				3FEB242413A506C1005C2B0D /* Documentation */,
+				3FEB242513A506C1005C2B0D /* examples */,
+				3FEB242613A506C1005C2B0D /* License.html */,
+				3FEB242713A506C1005C2B0D /* License.rtf */,
+				3FEB242813A506C1005C2B0D /* RegexKitLite.h */,
+				3FEB242913A506C1005C2B0D /* RegexKitLite.html */,
+				3FEB242A13A506C1005C2B0D /* RegexKitLite.m */,
+				3FEB241413A50565005C2B0D /* Supporting Files */,
+			);
+			path = RegexKitLite;
+			sourceTree = "<group>";
+		};
+		3FEB241413A50565005C2B0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FEB241513A50565005C2B0D /* RegexKitLite-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3FEB240C13A50565005C2B0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEB242D13A506F5005C2B0D /* RegexKitLite.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3FEB240D13A50565005C2B0D /* RegexKitLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEB241813A50565005C2B0D /* Build configuration list for PBXNativeTarget "RegexKitLite" */;
+			buildPhases = (
+				3FEB240A13A50565005C2B0D /* Sources */,
+				3FEB240B13A50565005C2B0D /* Frameworks */,
+				3FEB240C13A50565005C2B0D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RegexKitLite;
+			productName = RegexKitLite;
+			productReference = 3FEB240E13A50565005C2B0D /* libRegexKitLite.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FEB240513A50565005C2B0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = org.doubleking;
+			};
+			buildConfigurationList = 3FEB240813A50565005C2B0D /* Build configuration list for PBXProject "RegexKitLite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3FEB240313A50565005C2B0D;
+			productRefGroup = 3FEB240F13A50565005C2B0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FEB240D13A50565005C2B0D /* RegexKitLite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FEB240A13A50565005C2B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEB242C13A506ED005C2B0D /* RegexKitLite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3FEB241613A50565005C2B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FEB241713A50565005C2B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		3FEB241913A50565005C2B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/RegexKitLite.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RegexKitLite/RegexKitLite-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = /../RegexKitLite/PrivateHeaders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /../RegexKitLite/Headers;
+			};
+			name = Debug;
+		};
+		3FEB241A13A50565005C2B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/RegexKitLite.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RegexKitLite/RegexKitLite-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = /../RegexKitLite/PrivateHeaders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /../RegexKitLite/Headers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FEB240813A50565005C2B0D /* Build configuration list for PBXProject "RegexKitLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEB241613A50565005C2B0D /* Debug */,
+				3FEB241713A50565005C2B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEB241813A50565005C2B0D /* Build configuration list for PBXNativeTarget "RegexKitLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEB241913A50565005C2B0D /* Debug */,
+				3FEB241A13A50565005C2B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FEB240513A50565005C2B0D /* Project object */;
+}
